@@ -1,0 +1,24 @@
+Project concerns with the research on developing a recommender system.
+Given a partially filled out rating data matrix with 943 users and 1682 items.
+The algorithm fills out all the predicted rating values for those elements for which rating was not provided by a user.
+
+Istrustions:
+1. Compile program using the command : make
+
+2. Run the code using using command: make execute
+
+*input file name is already given in code.
+*the program will create a train.csv file and a final output.txt file.
+*all the external libraries are included in same directory
+
+
+External Libraries Used:
+guava-19.0.jar
+mahout-integration-0.12.2.jar
+mahout-math-0.12.2.jar
+mahout-core-0.8.jar
+commons-math3-3.6.1.jar
+slf4j-api-1.7.21.jar
+slf4j-nop-1.7.21.jar
+
+
